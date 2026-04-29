@@ -55,16 +55,4 @@ const Index = () => {
         <ContactSection />
       </main>
       
-      {/* Footer */}
-      <footer className="bg-surface-dark py-8 border-t border-border/30">
-        <div className="container mx-auto px-6 text-center">
-          <p className="text-muted-foreground">
-            © 2024 Portfolio. Crafted with passion and cutting-edge technology.
-          </p>
-        </div>
-      </footer>
-    </div>
-  );
-};
-
-export default Index;
+    

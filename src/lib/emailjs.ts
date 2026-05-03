@@ -33,11 +33,4 @@ export const sendEmail = async (formData: {
         to_name: formData.to_name || 'Sathish', // Your name as recipient
         reply_to: formData.from_email,
       }
-    );
-    
-    return { success: true, response };
-  } catch (error) {
-    console.error('EmailJS Error:', error);
-    return { success: false, error };
-  }
-};
+    )

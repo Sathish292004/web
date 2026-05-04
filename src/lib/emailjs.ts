@@ -25,12 +25,4 @@ export const sendEmail = async (formData: {
     const response = await emailjs.send(
       EMAILJS_CONFIG.SERVICE_ID,
       EMAILJS_CONFIG.TEMPLATE_ID,
-      {
-        from_name: formData.from_name,
-        from_email: formData.from_email,
-        subject: formData.subject,
-        message: formData.message,
-        to_name: formData.to_name || 'Sathish', // Your name as recipient
-        reply_to: formData.from_email,
-      }
-    )
+   

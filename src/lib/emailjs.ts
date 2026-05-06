@@ -21,8 +21,4 @@ export const sendEmail = async (formData: {
   message: string;
   to_name?: string;
 }) => {
-  try {
-    const response = await emailjs.send(
-      EMAILJS_CONFIG.SERVICE_ID,
-      EMAILJS_CONFIG.TEMPLATE_ID,
-   
+  
